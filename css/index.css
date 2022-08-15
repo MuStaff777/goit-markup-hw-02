@@ -1,0 +1,151 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --accent-color: #ff7f50;
+    --title-text-color: #FFFFFF;
+  }
+  
+  .menu-link,
+  .menu-site,
+  .logo,
+  .site-nav,
+  .work-list,
+  .contact-links,
+  .mail-links,
+  .phone-links,
+  .contact-phone-number {
+    text-decoration: none;
+  }
+  
+  .list, 
+  .site-nav,
+  .section-list,
+  .address-list,
+  .work-list,
+  .work-item {
+  list-style: none;
+  }
+  
+  .img {
+    display: block;
+  }
+  
+  .button {
+    cursor: pointer;
+  }
+  
+  /*--body--*/
+  
+  .body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .page-logo,
+  .address-logo {
+    Font-family: Raleway;
+    Font-size: 26px;
+    Line-height: 1.2px;
+    color: #2196F3;
+  }
+  .page-list,
+  .address-item  {
+    Font-family: Raleway;
+    Font-size: 26px;
+    Line-height: 1.2px;
+    color: #000000;
+  }
+  
+  .menu-list {
+    font-family: var(--secondary-font);
+    Font-size: 14px;
+    Line-height: 1.1px;
+    Line-height: 100%;
+    Letter-spacing: 2%;
+    color: #2196F3;
+  }
+
+  .menu-site:hover,
+  .menu-site:focus {
+    color: var(--accent-color);
+  }
+  
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--accent-color);
+  }
+  
+  .contact-phone-number {
+    Font-family: var(--primary-font);
+    Font-size: 14px;
+    Line-height: 1.1px;
+    Line-height: 100%;
+    Letter-spacing: 2%;
+    color: #757575;
+  }
+  
+  .contact-phone-number:hover,
+  .contact-phone-number:focus {
+    color: var(--accent-color);
+  }
+  
+/*--work--*/
+
+.title {
+    color: #F5F4FA;
+}
+
+.work-title {
+    Font-family: var(--primary-font);
+    Font-size: 18px;
+    Line-height: 2px;
+    text-align: center;
+    color: #212121;
+}
+
+.text {
+    Font-family: var(--primary-font);
+    Line-height: 30px;
+    Font-size: 0.5px;
+    text-align: center;
+    color: #757575;
+}
+
+  /*--address--*/
+  
+  .address {
+    background-color:#2F303A;
+  }
+  
+  .address-item  {
+    Font-family: Raleway;
+    Font-size: 26px;
+    Line-height: 1.2px;
+    color: var(--title-text-color);
+  }
+   
+  .contact-links {
+    Font-family: var(--primary-font);
+    Font-style: normal;
+    Font-size: 14px;
+    Line-height: 1.7px;
+    color: var(--title-text-color);
+  }
+  
+  .mail-links,
+  .phone-links {
+    Font-family: var(--primary-font);
+    Font-style: normal;
+    Font-size: 14px;
+    Line-height: 1.7px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .mail-links:hover,
+  .mail-links:focus {
+    color: #2196F3;
+  }
+  
+  .phone-links:hover,
+  .phone-links:focus {
+    color: #2196F3;
+  }
+  
