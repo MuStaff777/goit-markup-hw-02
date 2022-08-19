@@ -119,7 +119,7 @@ background-color: var(--hero-address-color);
 
 .button.primary {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
   background-color: var(--address-color);
@@ -131,7 +131,7 @@ background-color: var(--hero-address-color);
   background-color: var(--button-color);
 }
 
-.title {
+.section-list-title {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 14px;
@@ -140,7 +140,7 @@ background-color: var(--hero-address-color);
   color: var(--text-color);
 }
 
-.text {
+.section-text{
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 14px;
@@ -194,7 +194,7 @@ background-color: var(--hero-address-color);
   background-color:var(--hero-address-color);
 }
    
-.contact-links {
+.address-contact {
   font-family: var(--primary-font);
   font-weight: 400;
   font-style: normal;
@@ -204,8 +204,8 @@ background-color: var(--hero-address-color);
   color: var(--title-text-color);
 }
   
-.mail-links,
-.phone-links {
+.address-mail,
+.address-phone {
   font-family: var(--primary-font);
   font-weight: 400;
   font-style: normal;
